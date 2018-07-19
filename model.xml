@@ -1,0 +1,347 @@
+<OPCHAIN>
+  <Id>0</Id>
+  <Name>All OPCHAINs</Name>
+  <Description>This is the base OPCHAIN that encompasses all known OPCHAINs to date of the publication of current version.</Description>
+  <URL>http://operations.korrino.com</URL>
+  <Model>
+    <OpchainList>
+      <OPCHAIN>
+        <Id>133</Id>
+        <GeneralizationId>0</GeneralizationId>
+        <Name>Deploying infrastructure</Name>
+        <Description>Operator(s) deploy teleinformatic infrastructure, that they intend to use in order to carry out operations</Description>
+        <URL>http://opchains.korrino.com/opchain/133</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>106</Id>
+        <GeneralizationId>133</GeneralizationId>
+        <Name>Deploying domain node</Name>
+        <Description>Operator(s) deploy part of an teleinformatic infrastructure accessible with a domain name, that they intend to use in order to carry out operations</Description>
+        <URL>http://opchains.korrino.com/opchain/106</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>105</Id>
+        <GeneralizationId>133</GeneralizationId>
+        <Name>Deploying IP node</Name>
+        <Description>Operator(s) deploy part of an teleinformatic infrastructure accessible with an IP address, that they intend to use in order to carry out operations</Description>
+        <URL>http://opchains.korrino.com/opchain/105</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>151</Id>
+        <GeneralizationId>133</GeneralizationId>
+        <Name>Deploying exploit pack</Name>
+        <Description>Operator(s) deploy an exploit pack, that they intend to use in order to carry out operations</Description>
+        <URL>http://opchains.korrino.com/opchain/151</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>101</Id>
+        <GeneralizationId>133</GeneralizationId>
+        <Name>Weaponizing documents</Name>
+        <Description>Operator(s) weaponize a document or a file of a certain format, that they intend to use in order to carry out operations</Description>
+        <URL>http://opchains.korrino.com/opchain/101</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>131</Id>
+        <GeneralizationId>132</GeneralizationId>
+        <Name>Gaining foothold</Name>
+        <Description>Operator(s) gain access to the first node in the targeted infrastructure</Description>
+        <URL>http://opchains.korrino.com/opchain/131</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>132</Id>
+        <GeneralizationId>0</GeneralizationId>
+        <Name>Gaining node access</Name>
+        <Description>Operator(s) gain access to a node in the targeted infrastructure</Description>
+        <URL>http://opchains.korrino.com/opchain/132</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>113</Id>
+        <GeneralizationId>133</GeneralizationId>
+        <Name>Deploy waterholing tool</Name>
+        <Description>Operator(s) deploy code or data that allows them to redirect parts of the network traffic</Description>
+        <URL>http://opchains.korrino.com/opchain/113</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>115</Id>
+        <GeneralizationId>132</GeneralizationId>
+        <Name>Escalate privileges</Name>
+        <Description>Operator(s) gain higher privileges on the controlled node</Description>
+        <URL>http://opchains.korrino.com/opchain/115</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>138</Id>
+        <GeneralizationId>132</GeneralizationId>
+        <Name>Manipulating data structures</Name>
+        <Description>Operator(s) perform data or code manipulation in order to influence program execution or network traffic</Description>
+        <URL>http://opchains.korrino.com/opchain/138</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>160</Id>
+        <GeneralizationId>132</GeneralizationId>
+        <Name>Exploit vulnerability</Name>
+        <Description>Operator(s) exploit a security vulnerability in the targeted teleinformatic system in order to influence program execution or network traffic</Description>
+        <URL>http://opchains.korrino.com/opchain/160</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>162</Id>
+        <GeneralizationId>132</GeneralizationId>
+        <Name>Automatic propagation</Name>
+        <Description>Operator(s) use automatic means of propagation of malicious tools</Description>
+        <URL>http://opchains.korrino.com/opchain/162</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>167</Id>
+        <GeneralizationId>132</GeneralizationId>
+        <Name>Gain critical node access</Name>
+        <Description>Operator(s) gain access to the critical node in the targeted infrastructure</Description>
+        <URL>http://opchains.korrino.com/opchain/167</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>103</Id>
+        <GeneralizationId>0</GeneralizationId>
+        <Name>Deploying infection architecture</Name>
+        <Description>Operator(s) deploy programatic and data components on a node in order to enhance operational capabilities</Description>
+        <URL>http://opchains.korrino.com/opchain/103</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>119</Id>
+        <GeneralizationId>103</GeneralizationId>
+        <Name>Injecting code</Name>
+        <Description>Operator(s) inject code into programmatic components on a node</Description>
+        <URL>http://opchains.korrino.com/opchain/119</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>145</Id>
+        <GeneralizationId>119</GeneralizationId>
+        <Name>DLL Hijacking</Name>
+        <Description>[TODO]</Description>
+        <URL>http://opchains.korrino.com/opchain/145</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>144</Id>
+        <GeneralizationId>103</GeneralizationId>
+        <Name>Deploying persistance</Name>
+        <Description>Operator(s) deploy code or data components on a node in order to ensure reboot and/or reinstallation survival</Description>
+        <URL>http://opchains.korrino.com/opchain/144</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>146</Id>
+        <GeneralizationId>103</GeneralizationId>
+        <Name>Backdooring</Name>
+        <Description>Operator(s) deploy code or data components on a node in order to ensure their access to node in the future</Description>
+        <URL>http://opchains.korrino.com/opchain/146</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>156</Id>
+        <GeneralizationId>103</GeneralizationId>
+        <Name>Deploying executable modules</Name>
+        <Description>Operator(s) deploy executable modules in the filesystem or storage of a node</Description>
+        <URL>http://opchains.korrino.com/opchain/156</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>157</Id>
+        <GeneralizationId>103</GeneralizationId>
+        <Name>Deploying kernel modules</Name>
+        <Description>Operator(s) deploy kernel modules in the filesystem or storage of a node</Description>
+        <URL>http://opchains.korrino.com/opchain/157</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>150</Id>
+        <GeneralizationId>103</GeneralizationId>
+        <Name>Performing DGA</Name>
+        <Description>Operator(s) execute a Domain Generation Algorithm in oder to produce a domain list</Description>
+        <URL>http://opchains.korrino.com/opchain/150</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>159</Id>
+        <GeneralizationId>103</GeneralizationId>
+        <Name>Execute script </Name>
+        <Description>Operator(s) execute a script in a node</Description>
+        <URL>http://opchains.korrino.com/opchain/159</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>155</Id>
+        <GeneralizationId>0</GeneralizationId>
+        <Name>Collecting data</Name>
+        <Description>Operator(s) are performing data collection</Description>
+        <URL>http://opchains.korrino.com/opchain/155</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>112</Id>
+        <GeneralizationId>155</GeneralizationId>
+        <Name>Collecting geolocalization data</Name>
+        <Description>Operator(s) are performing geolocalization data collection</Description>
+        <URL>http://opchains.korrino.com/opchain/112</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>108</Id>
+        <GeneralizationId>155</GeneralizationId>
+        <Name>Collecting local OS data</Name>
+        <Description>Operator(s) are performing local OS data collection</Description>
+        <URL>http://opchains.korrino.com/opchain/108</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>168</Id>
+        <GeneralizationId>155</GeneralizationId>
+        <Name>Collecting local network data</Name>
+        <Description>Operator(s) are performing local network data collection</Description>
+        <URL>http://opchains.korrino.com/opchain/168</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>138</Id>
+        <GeneralizationId>155</GeneralizationId>
+        <Name>Collecting intelligence data</Name>
+        <Description>Operator(s) are performing intelligence data collection</Description>
+        <URL>http://opchains.korrino.com/opchain/138</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>139</Id>
+        <GeneralizationId>155</GeneralizationId>
+        <Name>Collecting personal data</Name>
+        <Description>Operator(s) are performing personal data collection</Description>
+        <URL>http://opchains.korrino.com/opchain/139</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>142</Id>
+        <GeneralizationId>0</GeneralizationId>
+        <Name>Performing data on objectives</Name>
+        <Description>Operator(s) are performing actions on operation objectives</Description>
+        <URL>http://opchains.korrino.com/opchain/142</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>104</Id>
+        <GeneralizationId>142</GeneralizationId>
+        <Name>CC interacting</Name>
+        <Description>Operator(s) are performing communication via the Command and Control channel</Description>
+        <URL>http://opchains.korrino.com/opchain/104</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>171</Id>
+        <GeneralizationId>104</GeneralizationId>
+        <Name>Passive CC interacting</Name>
+        <Description>Operator(s) are performing communication via the Command and Control channel with the passive role of remote CC node</Description>
+        <URL>http://opchains.korrino.com/opchain/171</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>134</Id>
+        <GeneralizationId>142</GeneralizationId>
+        <Name>Exfiltrating data</Name>
+        <Description>Operator(s) are performing data exfiltration into outside of targeted infrastructure</Description>
+        <URL>http://opchains.korrino.com/opchain/134</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>147</Id>
+        <GeneralizationId>104</GeneralizationId>
+        <Name>CC live interacting</Name>
+        <Description>Operator(s) are performing communication via the Command and Control channel with the active role of remote CC node</Description>
+        <URL>http://opchains.korrino.com/opchain/147</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>117</Id>
+        <GeneralizationId>142</GeneralizationId>
+        <Name>Shell interacting</Name>
+        <Description>Operator(s) are performing interaction with the system shell in a node</Description>
+        <URL>http://opchains.korrino.com/opchain/117</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>118</Id>
+        <GeneralizationId>142</GeneralizationId>
+        <Name>Filesystem interacting</Name>
+        <Description>Operator(s) are performing interaction with the filesystem in a node</Description>
+        <URL>http://opchains.korrino.com/opchain/118</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>149</Id>
+        <GeneralizationId>142</GeneralizationId>
+        <Name>Hardware interacting</Name>
+        <Description>Operator(s) are performing interaction with the hardware attached to a node</Description>
+        <URL>http://opchains.korrino.com/opchain/149</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>163</Id>
+        <GeneralizationId>142</GeneralizationId>
+        <Name>Performing DoS attack</Name>
+        <Description>Operator(s) are performing a Denial of Service attack </Description>
+        <URL>http://opchains.korrino.com/opchain/163</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>164</Id>
+        <GeneralizationId>163</GeneralizationId>
+        <Name>Performing DDoS attack</Name>
+        <Description>Operator(s) are performing a Distributed Denial of Service attack </Description>
+        <URL>http://opchains.korrino.com/opchain/164</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>161</Id>
+        <GeneralizationId>142</GeneralizationId>
+        <Name>Destroying data</Name>
+        <Description>Operator(s) are performing data destruction</Description>
+        <URL>http://opchains.korrino.com/opchain/161</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>172</Id>
+        <GeneralizationId>142</GeneralizationId>
+        <Name>Compromising data integrity</Name>
+        <Description>Operator(s) are performing data modification, compromising data integrity</Description>
+        <URL>http://opchains.korrino.com/opchain/172</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>173</Id>
+        <GeneralizationId>172</GeneralizationId>
+        <Name>Compromising configuration integrity</Name>
+        <Description>Operator(s) are performing configuration modification, compromising configuration integrity</Description>
+        <URL>http://opchains.korrino.com/opchain/173</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>136</Id>
+        <GeneralizationId>0</GeneralizationId>
+        <Name>Hiding</Name>
+        <Description>Operator(s) are performing actions with the purpose of evasing detection of their presence</Description>
+        <URL>http://opchains.korrino.com/opchain/136</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>123</Id>
+        <GeneralizationId>136</GeneralizationId>
+        <Name>Eliminating defensive software</Name>
+        <Description>Operator(s) are performing actions aiming at disabling or damaging defensive software</Description>
+        <URL>http://opchains.korrino.com/opchain/123</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>137</Id>
+        <GeneralizationId>136</GeneralizationId>
+        <Name>Evading defensive software</Name>
+        <Description>Operator(s) are performing actions aiming at evasing detection of their presence with defensive software</Description>
+        <URL>http://opchains.korrino.com/opchain/137</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>111</Id>
+        <GeneralizationId>136</GeneralizationId>
+        <Name>Autodestructing</Name>
+        <Description>Operator(s) are performing autodestruction actions on parts of malicious data, code and/or infractructure</Description>
+        <URL>http://opchains.korrino.com/opchain/111</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>109</Id>
+        <GeneralizationId>136</GeneralizationId>
+        <Name>Verifying environment</Name>
+        <Description>Operator(s) are performing environment verification in order to avoid analysis in analytical environments</Description>
+        <URL>http://opchains.korrino.com/opchain/109</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>169</Id>
+        <GeneralizationId>136</GeneralizationId>
+        <Name>Obfuscating data</Name>
+        <Description>Operator(s) are performing operations on data in order to render it meaningless or difficult to understand</Description>
+        <URL>http://opchains.korrino.com/opchain/169</URL>
+      </OPCHAIN>
+      <OPCHAIN>
+        <Id>170</Id>
+        <GeneralizationId>136</GeneralizationId>
+        <Name>Encrypting data</Name>
+        <Description>Operator(s) are performing data encryption</Description>
+        <URL>http://opchains.korrino.com/opchain/170</URL>
+      </OPCHAIN>
+    </OpchainList>
+    <SuccessionList/>
+  </Model>
+</OPCHAIN>
